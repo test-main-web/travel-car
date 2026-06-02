@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Аренда премиальных автомобилей</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, intial-scale=1"/>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="styles/adaptive.css"/>
+</head>
+<body>
+<main class="main">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo"/>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#cars">Автомобили</a>
+                    </li>
+                    <li>
+                        <a href="#order">Бронирование</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="tel:+971523898989" class="phone">+7 (999) 123-45-67</a>
+        </div>
+    </header>
+    <section class="main-content">
+        <div class="container">
+            <div class="main-info">
+                <h1>Ваш идеальный автомобиль — всегда под рукой!</h1>
+                <p>
+                    От стильных спорткаров, которые дарят ощущение скорости и динамики, до внедорожников, способных
+                    пройти любые препятствия.
+                </p>
+                <a href="#order" class="button">
+                    Забронировать</a>
+                <a href="#cars" class="button" id="main-action-button">
+                    Смотреть каталог</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<section class="steps">
+    <div class="container">
+        <div class="steps-text">
+            <h2>Три простых шага к вашему путешествию</h2>
+            <p>
+                Процесс аренды без лишних формальностей. Найди нужный автомобиль, забронируй его за минуту и получи
+                ключи в
+                руки.
+            </p>
+        </div>
+        <div class="steps-items">
+            <div class="step-item">
+                <div class="step-item-image">
+                    <img src="images/photo1.png" alt="шаг 1"/>
+                </div>
+                <h4>Выбери автомобиль</h4>
+                <p>Посмотри все доступные модели и выбери ту, что подходит твоему путешествию.</p>
+            </div>
+            <div class="step-item">
+                <div class="step-item-image">
+                    <img src="images/photo2.png" alt="шаг 2"/>
+                </div>
+                <h4>Заполни форму бронирования</h4>
+                <p>Укажи свои данные и предпочтения, всё остальное сделаем мы.</p>
+            </div>
+            <div class="step-item">
+                <div class="step-item-image">
+                    <img src="images/photo3.png" alt="шаг 3"/>
+                </div>
+                <h4>Получи ключи</h4>
+                <p>Найди нужный автомобиль в каталоге, заполни форму за минуту и получи ключи от автомобиля.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cars" id="cars">
+    <div class="container">
+        <h2>Выберите автомобиль</h2>
+        <div class="cars-content" id="cars-content">
+            <aside class="cars-filter">
+                <ul>
+                    <li class="active">Все марки</li>
+                    <li>BMW</li>
+                    <li>Mercedes</li>
+                    <li>Audi</li>
+                    <li>Toyota</li>
+                    <li>Ford</li>
+                    <li>Porsche</li>
+                    <li>Chevrolet</li>
+                </ul>
+            </aside>
+            <div class="cars-items">
+                <article class="car">
+                    <img src="images/cars-images/1.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>BMW XM</h4>
+                        <p>Мощный гибридный кроссовер с двигателем V8 мощностью до 653 л.с. и полным приводом. Сочетает
+                            в себе динамику, передовые технологии и роскошный интерьер, создавая уникальный опыт
+                            вождения.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">45000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">42000 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">40000 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/2.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>BMW X6 30d</h4>
+                        <p>Полный привод, современный мультимедийный экран, адаптивный круиз-контроль и двухзонный
+                            климат-контроль для удобства и безопасности на дороге.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">19000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">18000 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">16000 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/3.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>BMW 420d</h4>
+                        <p>Элегантное купе бизнес-класса с 2,0-литровым дизельным двигателем. Спортивный стиль,
+                            автоматическая коробка передач и передовые технологии.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">14000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">13000 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">12000 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/4.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>BMW X4 20d G02</h4>
+                        <p>Cтильный кроссовер с 2.0-литровым дизельным двигателем. Полный привод xDrive и 8-ступенчатая
+                            автоматическая коробка обеспечивают уверенное управление и комфорт в любых дорожных
+                            условиях.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">13000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">12500 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">12000 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/5.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Porsche 911 Targa 4S Yellow</h4>
+                        <p>Элегантная мощь в ярком цвете. Porsche 911 Targa 4S: полный привод, 450 л.с. и уникальный
+                            стиль Targa.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">28000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">26500 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">24500 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/6.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Audi A5 2.0d Sportback S-line</h4>
+                        <p>Cтильный пятидверный лифтбек с 2.0-литровым дизельным двигателем мощностью 190 л.с. и полным
+                            приводом Quattro, обеспечивающим уверенную динамику и комфорт на дороге.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">7000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">6550 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">6350 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/7.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Audi R8 Blue</h4>
+                        <p>Высокопроизводительный спортивный автомобиль с 5.2-литровым атмосферным V10 двигателем.
+                            Обеспечивает исключительную управляемость и динамику, создавая незабываемые впечатления от
+                            вождения.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">20000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">19000 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">18550 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/8.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Mercedes-Benz fled coupe 53 Amg</h4>
+                        <p>Динамичный и роскошный автомобиль с 3.0-литровым бензиновым турбодвигателем. Купе оснащено
+                            современными технологиями, включая пневмоподвеску AMG RIDE CONTROL.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">18000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">17500 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">16000 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/9.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Mercedes-Benz E450 Cabrio</h4>
+                        <p>Элегантный кабриолет с 3.0-литровым шестицилиндровым турбодвигателем. Полный привод 4MATIC,
+                            современная мультимедийная система и вместительный салон на 4 места.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">35000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">34050 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">33000 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/10.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Mercedes-Benz G500 AMG</h4>
+                        <p>Роскошный внедорожник с 3.0-литровым рядным шестицилиндровым двигателем, мягкой гибридной
+                            системой и полным приводом 4MATIC.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">24000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">22500 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">21000 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/11.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Mercedes-Benz GLE Coupe 350d</h4>
+                        <p>Роскошный кроссовер-купе с 3.0-литровым битурбодизельным двигателем, сочетает в себе полный
+                            привод 4MATIC и 9-ступенчатую автоматическую коробку передач.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">10400 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">10250 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">10100 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/12.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Toyota Land Cruiser 200</h4>
+                        <p>Мощный и надежный внедорожник с 4,5-литровым дизельным V8, полным приводом и автоматической
+                            коробкой передач.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">9000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">8700 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">8400 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/13.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Toyota Land Cruiser Prado</h4>
+                        <p>Надежный и вместительный внедорожник, оснащённый дизельным или бензиновым двигателем, с
+                            8-ступенчатой автоматической коробкой и полным приводом для уверенного движения по любым
+                            дорогам.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">7000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">6700 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">6300 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="car">
+                    <img src="images/cars-images/14.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Toyota Camry (XV70) new</h4>
+                        <p>Современный бизнес-седан с гибридной установкой пятого поколения. Автомобиль отличается
+                            плавным разгонам, экономичным расходом топлива от 4 л/100 км и оснащён современными
+                            опциями.</p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">6500 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">6100 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">5900 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="car">
+                    <img src="images/cars-images/15.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Chevrolet Camaro 2.0 Turbo</h4>
+                        <p> Спортивный автомобиль с 2.0-литровым турбированным бензиновым двигателем мощностью 238 л.с.,
+                            разгоняется до 100 км/ч за 5.9 секунды. Обладает современными системами стабилизации,
+                            аэродинамичным дизайном и динамичным управлением. </p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">35000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">31500 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">29750 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a></div>
+                    </div>
+                </article>
+                <article class="car">
+                    <img src="images/cars-images/16.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Chevrolet Tahoe</h4>
+                        <p> Большой внедорожник с мощным V8 двигателем, полным приводом и просторным салоном для
+                            комфортных путешествий и активного отдыха. Оснащён современными системами безопасности и
+                            мультимедийным комплексом для удобства водителя и пассажиров. </p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">32000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">28800 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">27200 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a></div>
+                    </div>
+                </article>
+                <article class="car">
+                    <img src="images/cars-images/17.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Chevrolet Malibu</h4>
+                        <p> Современный городской седан с 1.5-литровым турбированным двигателем, обеспечивающий
+                            экономичный расход топлива и комфортную езду. Отличается стильным дизайном, просторным
+                            салоном и продвинутыми технологиями безопасности. </p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">7000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">6300 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">5950 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a></div>
+                    </div>
+                </article>
+                <article class="car">
+                    <img src="images/cars-images/18.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Ford Mustang GT</h4>
+                        <p> Классический спортивный автомобиль с мощным 5.0-литровым V8 двигателем, развивающим 480
+                            л.с., разгоняется до 100 км/ч менее чем за 5 секунд. Оснащён современной трансмиссией и
+                            передовыми системами управления для динамичной и комфортной езды. </p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">37500 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">33750 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">31875 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a></div>
+                    </div>
+                </article>
+                <article class="car">
+                    <img src="images/cars-images/19.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Ford Explorer</h4>
+                        <p> Большой внедорожник с 3.0-литровым турбированным двигателем и полным приводом,
+                            обеспечивающий комфорт и безопасность при езде по разным покрытиям. Оснащён просторным
+                            салоном и современными технологиями для семьи и активного отдыха. </p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">18000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">16200 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">15300 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a></div>
+                    </div>
+                </article>
+                <article class="car">
+                    <img src="images/cars-images/20.png" alt="car"/>
+                    <div class="car-details">
+                        <h4>Ford Focus</h4>
+                        <p> Компактный и экономичный хэтчбек с 1.5-литровым бензиновым двигателем, идеально подходящий
+                            для городской езды. Обладает стильным дизайном, удобным салоном и современными системами
+                            безопасности. </p>
+                        <div class="car-action">
+                            <ul>
+                                <li>
+                                    <div class="car-period">на 1 сутки</div>
+                                    <div class="car-price">7000 <span>₽</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 1-3 суток</div>
+                                    <div class="car-price">6300 <span>₽/сут</span></div>
+                                </li>
+                                <li>
+                                    <div class="car-period">на 3+ суток</div>
+                                    <div class="car-price">5950 <span>₽/сут</span></div>
+                                </li>
+                            </ul>
+                            <a href="#order" class="button white-button">Забронировать</a></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="order" id="order">
+    <div class="container">
+        <img src="images/main-car1.png" alt="order-car"/>
+        <form>
+            <h3>Забронируйте машину</h3>
+            <p>
+                Оставьте свои контактные данные и мы перезвоним для подтверждения брони
+            </p>
+            <div class="order-form">
+                <input type="text" placeholder="Автомобиль" id="car"/>
+                <input type="text" placeholder="Ваше имя" id="name"/>
+                <input type="text" placeholder="Ваш телефон" id="phone"/>
+                <button class="button" type="button" id="order-action">
+                    Забронировать
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="first">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo"/>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#cars">Автомобили</a>
+                    </li>
+                    <li>
+                        <a href="#order">Бронирование</a>
+                    </li>
+                    <li>
+                        <a href="tel:+971523898989" class="phone">+7 (999) 123-45-67</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="rights">© 2026 TravelCar. Все права защищены.</div>
+    </div>
+</footer>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
